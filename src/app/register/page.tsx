@@ -13,16 +13,20 @@ export default function Register() {
     setLoading(true);
     setMessage(null);
 
-    const formData = new FormData(e.currentTarget);
-    const result = await registerBusiness(formData);
+    try {
+      const formData = new FormData(e.currentTarget);
+      const result = await registerBusiness(formData);
 
-    if (result.error) {
-      setMessage({ type: 'error', text: result.error });
-    } else if (result.success) {
-      setMessage({ type: 'success', text: `Success! Your tenant is ready at: ${result.subdomain}` });
+      if (result.error) {
+        setMessage({ type: 'error', text: result.error });
+      } else if (result.success) {
+        setMessage({ type: 'success', text: `Success! Your tenant is ready at: ${result.subdomain}` });
+      }
+    } catch (err) {
+      setMessage({ type: 'error', text: `Action Crash: ${String(err)}` });
+    } finally {
+      setLoading(false);
     }
-
-    setLoading(false);
   };
 
   return (
