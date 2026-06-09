@@ -9,7 +9,7 @@ export default function Home() {
         <div className="hero-bg-glow"></div>
         <div className="glass-panel" style={{ maxWidth: '800px', margin: '0 auto', position: 'relative', zIndex: 10 }}>
           <h1 style={{ fontSize: '3.5rem', marginBottom: '1.5rem', fontWeight: 800 }}>
-            Welcome to <span className="gradient-text">Uganda SME SaaS</span>
+            Welcome to <span className="gradient-text">my business</span>
           </h1>
           <p style={{ fontSize: '1.25rem', color: 'var(--text-secondary)', marginBottom: '2.5rem', lineHeight: '1.6' }}>
             The all-in-one business management system tailored for Ugandan small businesses. 
@@ -39,7 +39,7 @@ export default function Home() {
           <div className="grid-2-col" style={{ marginBottom: '6rem' }}>
             <div>
               <Image 
-                src="/dashboard_mockup.png" 
+                src="/dashboard_light.png" 
                 alt="Business Management Dashboard" 
                 width={800} 
                 height={600} 
@@ -66,7 +66,7 @@ export default function Home() {
           <div className="grid-2-col">
             <div style={{ order: 2 }}>
               <Image 
-                src="/business_growth.png" 
+                src="/business_growth_light.png" 
                 alt="Business Growth in Africa" 
                 width={800} 
                 height={600} 
