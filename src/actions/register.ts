@@ -57,6 +57,6 @@ export async function registerBusiness(formData: FormData) {
     return { success: true, subdomain: business.subdomain };
   } catch (error) {
     console.error('Registration Error:', error);
-    return { error: 'Failed to create account. Please try again.' };
+    return { error: `Error: ${error instanceof Error ? error.message : String(error)}` };
   }
 }
