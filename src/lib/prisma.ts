@@ -9,7 +9,7 @@ const connectionString = process.env.DATABASE_URL!
 
 const prismaClientSingleton = () => {
   const pool = new Pool({ connectionString })
-  const adapter = new PrismaNeon(pool)
+  const adapter = new PrismaNeon(pool as any)
   return new PrismaClient({ adapter })
 }
 
