@@ -155,10 +155,10 @@ export default function Home() {
             {/* Starter Package */}
             <div className="glass-panel" style={{ display: 'flex', flexDirection: 'column' }}>
               <h3 style={{ fontSize: '1.5rem', color: 'var(--text-primary)', marginBottom: '0.5rem' }}>Starter</h3>
-              <div style={{ fontSize: '2.5rem', fontWeight: 800, color: 'var(--accent-color)', marginBottom: '1.5rem' }}>UGX 30,000<span style={{ fontSize: '1rem', color: 'var(--text-secondary)' }}>/mo</span></div>
+              <div style={{ fontSize: '2.5rem', fontWeight: 800, color: 'var(--accent-color)', marginBottom: '1.5rem' }}>UGX 25,000<span style={{ fontSize: '1rem', color: 'var(--text-secondary)' }}>/mo</span></div>
               <p style={{ color: 'var(--text-secondary)', marginBottom: '2rem' }}>Perfect for single-owner retail shops and small kiosks.</p>
               <ul style={{ color: 'var(--text-secondary)', lineHeight: '2', paddingLeft: '1.5rem', marginBottom: '2rem', flex: 1 }}>
-                <li>1 User Account</li>
+                <li>Unlimited User Accounts</li>
                 <li>Basic Sales & Expense Tracking</li>
                 <li>Simple Inventory Management</li>
                 <li>Mobile Money Collections</li>
@@ -170,10 +170,10 @@ export default function Home() {
             <div className="glass-panel" style={{ display: 'flex', flexDirection: 'column', transform: 'scale(1.05)', borderColor: 'var(--accent-purple)', boxShadow: '0 10px 40px rgba(168, 85, 247, 0.2)' }}>
               <div style={{ background: 'var(--accent-purple)', color: '#fff', textAlign: 'center', padding: '0.25rem', borderRadius: '4px', fontSize: '0.8rem', fontWeight: 'bold', marginBottom: '1rem' }}>MOST POPULAR</div>
               <h3 style={{ fontSize: '1.5rem', color: 'var(--text-primary)', marginBottom: '0.5rem' }}>Professional</h3>
-              <div style={{ fontSize: '2.5rem', fontWeight: 800, color: 'var(--accent-purple)', marginBottom: '1.5rem' }}>UGX 75,000<span style={{ fontSize: '1rem', color: 'var(--text-secondary)' }}>/mo</span></div>
+              <div style={{ fontSize: '2.5rem', fontWeight: 800, color: 'var(--accent-purple)', marginBottom: '1.5rem' }}>UGX 50,000<span style={{ fontSize: '1rem', color: 'var(--text-secondary)' }}>/mo</span></div>
               <p style={{ color: 'var(--text-secondary)', marginBottom: '2rem' }}>Ideal for growing businesses with staff and multiple operations.</p>
               <ul style={{ color: 'var(--text-secondary)', lineHeight: '2', paddingLeft: '1.5rem', marginBottom: '2rem', flex: 1 }}>
-                <li>Up to 5 User Accounts</li>
+                <li>Unlimited User Accounts</li>
                 <li>Employee Payroll & Permissions</li>
                 <li>Access to Industry Modules (Clinic/Restaurant)</li>
                 <li>Advanced Profit Reporting</li>
@@ -184,7 +184,7 @@ export default function Home() {
             {/* Enterprise Package */}
             <div className="glass-panel" style={{ display: 'flex', flexDirection: 'column' }}>
               <h3 style={{ fontSize: '1.5rem', color: 'var(--text-primary)', marginBottom: '0.5rem' }}>Enterprise</h3>
-              <div style={{ fontSize: '2.5rem', fontWeight: 800, color: 'var(--accent-pink)', marginBottom: '1.5rem' }}>UGX 150,000<span style={{ fontSize: '1rem', color: 'var(--text-secondary)' }}>/mo</span></div>
+              <div style={{ fontSize: '2.5rem', fontWeight: 800, color: 'var(--accent-pink)', marginBottom: '1.5rem' }}>UGX 100,000<span style={{ fontSize: '1rem', color: 'var(--text-secondary)' }}>/mo</span></div>
               <p style={{ color: 'var(--text-secondary)', marginBottom: '2rem' }}>For multi-branch businesses requiring advanced tools.</p>
               <ul style={{ color: 'var(--text-secondary)', lineHeight: '2', paddingLeft: '1.5rem', marginBottom: '2rem', flex: 1 }}>
                 <li>Unlimited User Accounts</li>
