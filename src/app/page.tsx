@@ -12,13 +12,11 @@ export default function Home() {
         </div>
         <div className="desktop-nav">
           <Link href="/" className="nav-link" style={{ color: '#fff' }}>Home</Link>
-          <Link href="/solutions" className="nav-link">Solutions</Link>
           <Link href="/how-it-works" className="nav-link">How it Works</Link>
-          <Link href="/blog" className="nav-link">Blog</Link>
           <Link href="/pricing" className="nav-link">Pricing</Link>
           <Link href="/testimonials" className="nav-link">Testimonials</Link>
-          <Link href="/faq" className="nav-link">FAQ</Link>
-          <Link href="#contact" className="nav-link">Contact Us</Link>
+          <Link href="/faq" className="nav-link" style={{ display: 'none' }}>FAQ</Link>
+          <Link href="/contact" className="nav-link">Contact Us</Link>
         </div>
         <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
           <Link href="#" className="nav-link" style={{ color: '#fff', fontWeight: 600 }}>Sign In</Link>
@@ -265,7 +263,7 @@ export default function Home() {
       {/* Footer */}
       <footer style={{ background: '#080c17', padding: '5rem 0 2rem 0', marginTop: 'auto', borderTop: '1px solid rgba(255,255,255,0.05)' }}>
         <div className="container">
-          <div style={{ display: 'grid', gridTemplateColumns: '2fr 1fr 1fr 1fr 1fr', gap: '3rem', marginBottom: '4rem' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: '2fr 1fr 1fr 1fr', gap: '3rem', marginBottom: '4rem' }}>
             
             {/* Column 1: Brand */}
             <div>
@@ -296,17 +294,7 @@ export default function Home() {
               </ul>
             </div>
 
-            {/* Column 3: Solutions */}
-            <div>
-              <h4 style={{ fontSize: '1.1rem', fontWeight: 700, marginBottom: '1.5rem', color: '#fff' }}>Solutions</h4>
-              <ul style={{ listStyle: 'none', padding: 0, color: 'var(--text-secondary)', lineHeight: '2.5' }}>
-                <li><Link href="/solutions" className="nav-link">Retail POS</Link></li>
-                <li><Link href="/solutions" className="nav-link">Clinic Billing</Link></li>
-                <li><Link href="/solutions" className="nav-link">Restaurant Sync</Link></li>
-                <li><Link href="/solutions" className="nav-link">Enterprise HQ</Link></li>
-                <li><Link href="/solutions" className="nav-link">MoMo Integration</Link></li>
-              </ul>
-            </div>
+
 
             {/* Column 4: Resources */}
             <div>
