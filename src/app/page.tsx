@@ -10,7 +10,7 @@ export default function Home() {
           <Image src="/logo.png" alt="Logo" width={40} height={40} style={{ borderRadius: '8px' }} />
           <span style={{ fontSize: '1.2rem', fontWeight: 700, color: '#fff' }}>My Business</span>
         </div>
-        <div style={{ display: 'flex', gap: '2rem', display: 'none', '@media(min-width: 1024px)': { display: 'flex' } } as any}>
+        <div className="desktop-nav">
           <Link href="/" className="nav-link" style={{ color: '#fff' }}>Home</Link>
           <Link href="/solutions" className="nav-link">Solutions</Link>
           <Link href="/how-it-works" className="nav-link">How it Works</Link>
